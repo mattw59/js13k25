@@ -1,0 +1,16 @@
+{
+  "name": "js13k25",
+  "version": "0.0.1",
+  "description": "Entry for JS13K Games entry for 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup game.js --format iife --file game.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kontra": "^10.0.2",
+    "rollup": "^4.46.2"
+  }
+}
